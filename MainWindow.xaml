@@ -1,0 +1,46 @@
+﻿<Window x:Name="winMain" x:Class="Dog_Adoption.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dog_Adoption"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Icon="C:\Users\kelem\source\repos\Dog Adoption\Images\dog background.JPEG" ResizeMode="NoResize">
+
+    <Window.Background>
+        <ImageBrush ImageSource="C:\Users\kelem\source\repos\Dog Adoption\Images\dog background.JPEG" Stretch="Fill" Opacity=".3" />
+    </Window.Background>
+
+    <Grid>
+        <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="560,343,0,0" VerticalAlignment="Top" Height="26" Width="112" Click="btnExit_Click"/>
+        <Image x:Name="imgMike" HorizontalAlignment="Left" Height="273" Margin="277,50,0,0" VerticalAlignment="Top" Width="205" Source="C:\Users\kelem\source\repos\Dog Adoption\Images\dog_Mike.png" Visibility="Hidden"/>
+        <Image x:Name="imgTerry" HorizontalAlignment="Left" Height="267" Margin="183,32,0,0" VerticalAlignment="Top" Width="248" Source="C:\Users\kelem\source\repos\Dog Adoption\Images\dog_Terry.png" Visibility="Hidden"/>
+        <Image x:Name="imgScooby" HorizontalAlignment="Center" Height="234" Margin="0,76,0,0" VerticalAlignment="Top" Width="193" Source="C:\Users\kelem\source\repos\Dog Adoption\Images\dog_Scooby.png" Visibility="Hidden"/>
+        <Image x:Name="imgJane" HorizontalAlignment="Left" Height="254" Margin="189,52,0,0" VerticalAlignment="Top" Width="216" Source="C:\Users\kelem\source\repos\Dog Adoption\Images\dog_Jane.png" Visibility="Hidden"/>
+        <Image x:Name="imgMax" HorizontalAlignment="Left" Height="238" Margin="277,84,0,0" VerticalAlignment="Top" Width="229" Source="C:\Users\kelem\source\repos\Dog Adoption\Images\dog_Max.png" Visibility="Hidden"/>
+        <Image x:Name="imgJames" HorizontalAlignment="Left" Height="260" Margin="256,50,0,0" VerticalAlignment="Top" Width="197" Source="C:\Users\kelem\source\repos\Dog Adoption\Images\dog_James.png" Visibility="Hidden"/>
+        <Button x:Name="btnClear" Content="Clear Fields" HorizontalAlignment="Center" Margin="0,343,0,0" VerticalAlignment="Top" Height="26" Width="112" Click="btnClear_Click"/>
+        <Button x:Name="btnJames" Content="James" HorizontalAlignment="Left" Margin="42,70,0,0" VerticalAlignment="Top" Width="89" Height="29" Background="Yellow" Click="btnJames_Click" />
+        <Button x:Name="btnMike" Content="Mike" HorizontalAlignment="Left" Margin="42,114,0,0" VerticalAlignment="Top" Width="89" Height="30" Background="Yellow" Click="btnMike_Click" />
+        <Button x:Name="btnTerry" Content="Terry" HorizontalAlignment="Left" Margin="42,161,0,0" VerticalAlignment="Top" Width="89" Height="30" Background="Yellow" Click="btnTerry_Click"/>
+        <Button x:Name="btnMax" Content="Max" HorizontalAlignment="Left" Margin="42,209,0,0" VerticalAlignment="Top" Width="89" Height="28" Background="Yellow" Click="btnMax_Click"/>
+        <Button x:Name="btnScooby" Content="Scooby" HorizontalAlignment="Left" Margin="42,252,0,0" VerticalAlignment="Top" Width="89" Height="29" Background="Yellow" Click="btnScooby_Click"/>
+        <Button x:Name="btnJane" Content="Jane" HorizontalAlignment="Left" Margin="42,296,0,0" VerticalAlignment="Top" Width="89" Height="27" Background="Yellow" Click="btnJane_Click"/>
+        <Label x:Name="lblDogName" Content="" HorizontalAlignment="Left" Margin="560,19,0,0" Background="AliceBlue" VerticalAlignment="Top" Width="208" Height="26"/>
+        <Label x:Name="lblBreed" Content="" HorizontalAlignment="Left" Margin="560,52,0,0" Background="AliceBlue"  VerticalAlignment="Top" Width="208"/>
+        <Label x:Name="lblWeight" Content="" HorizontalAlignment="Left" Margin="560,84,0,0" Background="AliceBlue"  VerticalAlignment="Top" Width="208"/>
+        <Label x:Name="lblDOB" Content="" HorizontalAlignment="Left" Margin="560,118,0,0" Background="AliceBlue"  VerticalAlignment="Top" Width="208"/>
+        <Label x:Name="lblGender" Content="" HorizontalAlignment="Left" Margin="560,153,0,0" Background="AliceBlue"  VerticalAlignment="Top" Width="208"/>
+        <Label x:Name="lblShots" Content="" HorizontalAlignment="Left" Margin="560,186,0,0" Background="AliceBlue"  VerticalAlignment="Top" Width="208"/>
+        <Label x:Name="lblColor" Content="" HorizontalAlignment="Left" Margin="560,219,0,0" Background="AliceBlue"  VerticalAlignment="Top" Width="208"/>
+        <Label x:Name="lblTextName" Content="Name" Background="AliceBlue" HorizontalAlignment="Left" Margin="479,19,0,0" VerticalAlignment="Top" Width="42"/>
+        <Label x:Name="lblTextBreed" Content="Breed" Background="AliceBlue" HorizontalAlignment="Left" Margin="479,52,0,0" VerticalAlignment="Top" Width="42"/>
+        <Label x:Name="lblTextWeight" Content="Weight" Background="AliceBlue" HorizontalAlignment="Left" Margin="479,84,0,0" VerticalAlignment="Top" Width="51"/>
+        <Label x:Name="lblTextDoB" Content="DOB" Background="AliceBlue" HorizontalAlignment="Left" Margin="479,118,0,0" VerticalAlignment="Top" Width="51"/>
+        <Label x:Name="lblTextGender" Content="Gender" Background="AliceBlue" HorizontalAlignment="Left" Margin="479,153,0,0" VerticalAlignment="Top" Width="51"/>
+        <Label x:Name="lblTextShots" Content="Have Shots?" Background="AliceBlue" HorizontalAlignment="Left" Margin="479,186,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label x:Name="lblTextColor" Content="Color" Background="AliceBlue" HorizontalAlignment="Left" Margin="479,217,0,0" VerticalAlignment="Top" Width="42"/>
+        <Button x:Name="btnOrderJames" Content="Order" HorizontalAlignment="Left" Margin="712,252,0,0" VerticalAlignment="Top" Width="56" Click="btnOrderJames_Click"/>
+
+    </Grid>
+</Window>

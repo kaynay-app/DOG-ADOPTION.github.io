@@ -1,0 +1,31 @@
+﻿<Window x:Class="Dog_Adoption.Verification_Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dog_Adoption"
+        mc:Ignorable="d"
+        Title="Verification_Window" Height="450" Width="800">
+    <Window.Background>
+        <ImageBrush ImageSource="C:\Users\kelem\source\repos\Dog Adoption\Images\dog background.JPEG" Stretch="Fill" Opacity=".3" />
+    </Window.Background>
+
+    <Grid x:Name="VerMain" Loaded="VerMain_Loaded">
+        <Label x:Name="lblDogName1" Content="" HorizontalAlignment="Left" Margin="344,19,0,0" Background="AliceBlue" VerticalAlignment="Top" Width="332" Height="36"/>
+        <Label x:Name="lblBreed" Content="" HorizontalAlignment="Left" Margin="344,65,0,0" Background="AliceBlue"  VerticalAlignment="Top" Width="332" Height="37"/>
+        <Label x:Name="lblWeight" Content="" HorizontalAlignment="Left" Margin="344,110,0,0" Background="AliceBlue"  VerticalAlignment="Top" Width="332" Height="36"/>
+        <Label x:Name="lblDOB" Content="" HorizontalAlignment="Left" Margin="344,158,0,0" Background="AliceBlue"  VerticalAlignment="Top" Width="332" Height="36"/>
+        <Label x:Name="lblGender" Content="" HorizontalAlignment="Left" Margin="344,207,0,0" Background="AliceBlue"  VerticalAlignment="Top" Width="332" Height="36"/>
+        <Label x:Name="lblShots" Content="" HorizontalAlignment="Left" Margin="344,253,0,0" Background="AliceBlue"  VerticalAlignment="Top" Width="332" Height="36"/>
+        <Label x:Name="lblColor" Content="" HorizontalAlignment="Left" Margin="344,299,0,0" Background="AliceBlue"  VerticalAlignment="Top" Width="332" Height="36"/>
+        <Label x:Name="lblTextName" Content="Name" Background="AliceBlue" HorizontalAlignment="Left" Margin="216,19,0,0" VerticalAlignment="Top" Width="67" Height="36"/>
+        <Label x:Name="lblTextBreed" Content="Breed" Background="AliceBlue" HorizontalAlignment="Left" Margin="216,65,0,0" VerticalAlignment="Top" Width="67" Height="37"/>
+        <Label x:Name="lblTextWeight" Content="Weight" Background="AliceBlue" HorizontalAlignment="Left" Margin="216,110,0,0" VerticalAlignment="Top" Width="81" Height="36"/>
+        <Label x:Name="lblTextDoB" Content="DOB" Background="AliceBlue" HorizontalAlignment="Left" Margin="216,158,0,0" VerticalAlignment="Top" Width="81" Height="36"/>
+        <Label x:Name="lblTextGender" Content="Gender" Background="AliceBlue" HorizontalAlignment="Left" Margin="216,207,0,0" VerticalAlignment="Top" Width="81" Height="36"/>
+        <Label x:Name="lblTextShots" Content="Have Shots?" Background="AliceBlue" HorizontalAlignment="Left" Margin="216,253,0,0" VerticalAlignment="Top" Width="118" Height="36"/>
+        <Label x:Name="lblTextColor" Content="Color" Background="AliceBlue" HorizontalAlignment="Left" Margin="216,299,0,0" VerticalAlignment="Top" Width="118" Height="36"/>
+        <Button x:Name="btnConfirm_Order" Content="Confirm Order" HorizontalAlignment="Left" Margin="589,351,0,0" VerticalAlignment="Top" Width="87" Height="25" Click="btnConfirm_Order_Click"/>
+        <Button x:Name="btnBack" Content="Home Screen" HorizontalAlignment="Left" Margin="419,351,0,0" VerticalAlignment="Top" Height="25" Width="91" Click="btnBack_Click"/>
+    </Grid>
+</Window>
