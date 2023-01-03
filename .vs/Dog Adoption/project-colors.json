@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "be234cd0-be70-4e35-8aa9-513642a01d39": {
+      "ProjectGuid": "be234cd0-be70-4e35-8aa9-513642a01d39",
+      "DisplayName": "Dog Adoption",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

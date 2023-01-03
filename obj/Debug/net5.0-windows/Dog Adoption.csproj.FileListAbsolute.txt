@@ -1,0 +1,24 @@
+C:\Users\kelem\source\repos\Dog Adoption\bin\Debug\net5.0-windows\Dog Adoption.exe
+C:\Users\kelem\source\repos\Dog Adoption\bin\Debug\net5.0-windows\Dog Adoption.deps.json
+C:\Users\kelem\source\repos\Dog Adoption\bin\Debug\net5.0-windows\Dog Adoption.runtimeconfig.json
+C:\Users\kelem\source\repos\Dog Adoption\bin\Debug\net5.0-windows\Dog Adoption.runtimeconfig.dev.json
+C:\Users\kelem\source\repos\Dog Adoption\bin\Debug\net5.0-windows\Dog Adoption.dll
+C:\Users\kelem\source\repos\Dog Adoption\bin\Debug\net5.0-windows\Dog Adoption.pdb
+C:\Users\kelem\source\repos\Dog Adoption\obj\Debug\net5.0-windows\Dog Adoption.csproj.AssemblyReference.cache
+C:\Users\kelem\source\repos\Dog Adoption\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\kelem\source\repos\Dog Adoption\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\kelem\source\repos\Dog Adoption\obj\Debug\net5.0-windows\Dog Adoption_MarkupCompile.cache
+C:\Users\kelem\source\repos\Dog Adoption\obj\Debug\net5.0-windows\Dog Adoption_MarkupCompile.lref
+C:\Users\kelem\source\repos\Dog Adoption\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\kelem\source\repos\Dog Adoption\obj\Debug\net5.0-windows\Dog Adoption.g.resources
+C:\Users\kelem\source\repos\Dog Adoption\obj\Debug\net5.0-windows\Dog Adoption.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kelem\source\repos\Dog Adoption\obj\Debug\net5.0-windows\Dog Adoption.AssemblyInfoInputs.cache
+C:\Users\kelem\source\repos\Dog Adoption\obj\Debug\net5.0-windows\Dog Adoption.AssemblyInfo.cs
+C:\Users\kelem\source\repos\Dog Adoption\obj\Debug\net5.0-windows\Dog Adoption.csproj.CoreCompileInputs.cache
+C:\Users\kelem\source\repos\Dog Adoption\obj\Debug\net5.0-windows\Dog Adoption.dll
+C:\Users\kelem\source\repos\Dog Adoption\obj\Debug\net5.0-windows\ref\Dog Adoption.dll
+C:\Users\kelem\source\repos\Dog Adoption\obj\Debug\net5.0-windows\Dog Adoption.pdb
+C:\Users\kelem\source\repos\Dog Adoption\obj\Debug\net5.0-windows\Dog Adoption.genruntimeconfig.cache
+C:\Users\kelem\source\repos\Dog Adoption\obj\Debug\net5.0-windows\Verification Window.g.cs
+C:\Users\kelem\source\repos\Dog Adoption\obj\Debug\net5.0-windows\Verification Window.baml
+C:\Users\kelem\source\repos\Dog Adoption\obj\Debug\net5.0-windows\refint\Dog Adoption.dll
